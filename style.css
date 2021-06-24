@@ -197,7 +197,7 @@ h1 .home-span {
   }
 }
 
-@media (max-width: 779.9px) {
+@media (max-width: 779.9px) and (min-width: 401px) {
   header {
     padding: 30px 10px;
   }
@@ -217,6 +217,52 @@ h1 .home-span {
   .home-img img {
     max-width: 300px;
     max-height: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    padding: 30px 10px;
+  }
+  #home {
+    padding: 0 20px;
+    justify-content: center;
+  }
+  .home-text {
+    padding-top: 50px;
+    flex: 100%;
+  }
+  .home-img {
+    flex: 100%;
+    justify-content: center;
+    max-width: 250px;
+  }
+  .home-img img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 300px) {
+  header {
+    padding: 30px 10px;
+  }
+  #home {
+    padding: 0 20px;
+    justify-content: center;
+  }
+  .home-text {
+    padding-top: 50px;
+    flex: 100%;
+  }
+  .home-img {
+    flex: 100%;
+    justify-content: center;
+    max-width: 200px;
+  }
+  .home-img img {
+    max-width: 200px;
+    max-height: 200px;
   }
 }
 
@@ -306,6 +352,20 @@ h1 .home-span {
 @media (max-width: 500px) {
   #about {
     padding: 0 20px;
+  }
+  .about-img img {
+    display: none;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-text {
+    flex: 80%;
+    margin-top: 80px;
+    font-size: 10px;
+  }
+  .about-info {
+    padding: 10px;
   }
 }
 
@@ -897,14 +957,20 @@ h1 .home-span {
   #projects {
     padding: 0 50px;
   }
-  .project-wrapper {
-    transform: scale(1.05);
-  }
 }
 
 @media (max-width: 500px) {
   #projects {
     padding: 0 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .project {
+    width: 250px;
+  }
+  .project-img {
+    width: 250px;
   }
 }
 
