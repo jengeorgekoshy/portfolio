@@ -68,6 +68,10 @@ header ul li a:hover {
     padding: 20px;
   }
 
+  header a {
+    padding-left: 15px;
+  }
+
   header ul {
     display: none;
   }
