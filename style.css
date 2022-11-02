@@ -789,7 +789,7 @@ h1 .home-span {
   width: 50%;
 }
 .bar .progress-line.python span {
-  width: 75%;
+  width: 70%;
 }
 .bar .progress-line.sql span {
   width: 50%;
@@ -828,34 +828,28 @@ h1 .home-span {
   }
 }
 .progress-line.html span::after {
-  content: '90%';
+  content: '80%';
 }
 .progress-line.css span::after {
-  content: '80%';
+  content: '70%';
 }
 .progress-line.js span::after {
-  content: '75%';
+  content: '70%';
 }
 .progress-line.c span::after {
-  content: '85%';
+  content: '80%';
 }
 .progress-line.java span::after {
-  content: '80%';
+  content: '75%';
 }
 .progress-line.python span::after {
   content: '70%';
 }
 .progress-line.node span::after {
-  content: '60%';
-}
-.progress-line.express span::after {
   content: '50%';
 }
-.progress-line.react span::after {
-  content: '45%';
-}
-.progress-line.mongo span::after {
-  content: '40%';
+.progress-line.sql span::after {
+  content: '50%';
 }
 
 @media (max-width: 1000px) {
