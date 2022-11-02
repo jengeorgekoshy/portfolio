@@ -786,7 +786,7 @@ h1 .home-span {
   width: 75%;
 }
 .bar .progress-line.node span {
-  width: 50%;
+  width: 45%;
 }
 .bar .progress-line.python span {
   width: 70%;
@@ -846,7 +846,7 @@ h1 .home-span {
   content: '70%';
 }
 .progress-line.node span::after {
-  content: '50%';
+  content: '45%';
 }
 .progress-line.sql span::after {
   content: '50%';
