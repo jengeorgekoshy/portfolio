@@ -788,9 +788,6 @@ h1 .home-span {
 .bar .progress-line.node span {
   width: 50%;
 }
-.bar .progress-line.mongo span {
-  width: 20%;
-}
 .bar .progress-line.python span {
   width: 75%;
 }
