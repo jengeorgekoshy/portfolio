@@ -771,34 +771,31 @@ h1 .home-span {
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 .bar .progress-line.html span {
-  width: 90%;
-}
-.bar .progress-line.css span {
   width: 80%;
 }
-.bar .progress-line.js span {
+.bar .progress-line.css span {
   width: 75%;
 }
+.bar .progress-line.js span {
+  width: 70%;
+}
 .bar .progress-line.c span {
-  width: 85%;
+  width: 80%;
 }
 .bar .progress-line.java span {
-  width: 85%;
+  width: 75%;
 }
 .bar .progress-line.node span {
-  width: 65%;
-}
-.bar .progress-line.express span {
   width: 50%;
 }
-.bar .progress-line.react span {
-  width: 45%;
-}
 .bar .progress-line.mongo span {
-  width: 40%;
+  width: 20%;
 }
 .bar .progress-line.python span {
-  width: 70%;
+  width: 75%;
+}
+.bar .progress-line.sql span {
+  width: 50%;
 }
 .progress-line span::before {
   position: absolute;
